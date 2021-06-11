@@ -19,4 +19,5 @@ const fetchAllBookingsData = {
 const getData = () => {
   return Promise.all([ fetchAllCustomerData(), fetchAllRoomsData(), fetchAllBookingsData() ])
 }
+
 export { fetchAllCustomerData, fetchAllRoomsData, fetchAllBookingsData }

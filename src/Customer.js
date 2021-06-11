@@ -1,3 +1,3 @@
 // Customer class
 
-export default Customer;
+// export default Customer;

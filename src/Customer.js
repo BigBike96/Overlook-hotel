@@ -1,3 +1,15 @@
 // Customer class
+// should have a name
+// should have an id
 
-// export default Customer;
+class Customer {
+  constructor(customer) {
+    // this.customer = customer;
+  }
+}
+
+
+
+
+
+export default Customer

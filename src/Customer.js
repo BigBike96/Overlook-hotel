@@ -3,8 +3,8 @@
 // should have an id
 
 class Customer {
-  constructor(customer) {
-    // this.customer = customer;
+  constructor(customerInfo) {
+    this.id = customerInfo.id;
   }
 }
 

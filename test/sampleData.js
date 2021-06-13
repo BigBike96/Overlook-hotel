@@ -1,9 +1,9 @@
-const customerSampleData = {
+export const customerSampleData = {
   "id": 1,
   "name": "Leatha Ullrich"
 };
 
-const allCustomerData = {
+export const allCustomerData = {
   "customers": [
     {
       "id": 1,
@@ -48,7 +48,7 @@ const allCustomerData = {
   ]
 };
 
-const allRoomsSampleData = {
+export const allRoomsSampleData = {
   "rooms": [
     {
       "number": 1,
@@ -125,7 +125,7 @@ const allRoomsSampleData = {
   ]
 };
 
-const allBookingsSampleData = {
+// export const allBookingsSampleData = {
   "bookings": [
     {
       "id": "5fwrgu4i7k55hl6sz",

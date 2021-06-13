@@ -68,7 +68,7 @@ describe('Room', () => {
 
     it('should tell you the size of the beds in a room', () => {
 
-       expect(room2.bedSize).to.equal('twin');
+       expect(room.bedSize).to.equal('queen');
      });
 
     it('should tell you the size of the beds in another room', () => {

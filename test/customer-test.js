@@ -44,9 +44,21 @@ describe('Customer', () => {
     expect(customer2.id).to.equal(12);
   });
 
-  // it('', () => {
-  //   expect().to.equal()
-  // })
+  it('should have a name', () => {
+
+    expect(customer.name).to.equal('Leatha Ullrich');
+  });
+
+
+  it('should have another name', () => {
+
+    expect(customer2.name).to.equal('Stanly Jones');
+  });
+
+  it('should keep track of customer bookings', () => {
+
+    expect(customer.bookings).to.deep.equal([]);
+  })
 
   // it('', () => {
   //   expect().to.equal()

@@ -1,5 +1,54 @@
 import chai from 'chai';
 const expect = chai.expect;
 
-import Rooms from './rooms-test';
-import sampleData from './sampleData'
+import Room from '../src/Room';
+// import sampleData from './sampleData';
+
+describe('Room', () => {
+  let room24, room11, room, room2;
+
+  beforeEach('setup', () => {
+
+   room24 = {
+      number: 24,
+      roomType: 'suite',
+      bidet: false,
+      bedSize: 'queen',
+      numBeds: 1,
+      costPerNight: 327.24
+    }
+
+   room11 = {
+      number: 11,
+      roomType: 'single room',
+      bidet: true,
+      bedSize: 'twin',
+      numBeds: 2,
+      costPerNight: 207.24,
+    }
+
+    room = new Room(room24)
+    room2 = new Room(room11)
+  });
+
+    it('should be a function', () => {
+
+      expect(Room).to.be.a('function');
+    });
+
+    it('should be a room', () => {
+
+      expect(room).to.be.an.instanceOf(Room);
+    });
+
+    it('should have a room number', () => {
+
+      expect(room.number).to.equal(24);
+    });
+
+    it('should be able to have a different room number', () => {
+
+      expect(room2.number).to.equal(11);
+    });
+
+});

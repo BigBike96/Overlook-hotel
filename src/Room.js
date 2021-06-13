@@ -1,4 +1,8 @@
+class Room {
+  constructor(room) {
+    this.number = room.number;
+  }
+}
 
 
-
-export default Rooms;
+export default Room;

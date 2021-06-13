@@ -214,8 +214,10 @@ const allBookingsSampleData = {
   ]
 };
 
-// module.exports customerSampleData, allCustomerData, allRoomsSampleData, allBookingsSampleData; 
-export { customerSampleData, allCustomerData, allRoomsSampleData, allBookingsSampleData }
+// module.exports customerSampleData, allCustomerData, allRoomsSampleData, allBookingsSampleData;
+// export { customerSampleData, allCustomerData, allRoomsSampleData, allBookingsSampleData }
+
+
 // ADD NEW BOOKING FOR POST SAMPLE
 // {
 //  "userID": 48,

@@ -3,18 +3,18 @@ import chai from 'chai';
 const expect = chai.expect;
 
 import Customer from '../src/Customer';
-import { sampleData } from './sampleData';
+// import { sampleData } from './sampleData';
 
 describe('Customer', () => {
   let customer, customer2, newCustomer, newCustomer2;
 
   beforeEach('setup', () => {
 
-    newCustomer = sampleData.customerSampleData;
-    // newCustomer = {
-    //   id: 1,
-    //   name: 'Leatha Ullrich'
-    // }
+    // newCustomer = sampleData.customerSampleData;
+    newCustomer = {
+      id: 1,
+      name: 'Leatha Ullrich'
+    }
 
     newCustomer2 = {
       id: 12,
@@ -49,7 +49,6 @@ describe('Customer', () => {
 
     expect(customer.name).to.equal('Leatha Ullrich');
   });
-
 
   it('should have another name', () => {
 
